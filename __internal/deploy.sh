@@ -36,7 +36,7 @@ if [ $TRAVIS_PULL_REQUEST != "false" ]; then
     if [[ -n $(git status -s) ]]; then
         echo "Deploying..."
         git commit -m "PR dlrep/dlrep#$TRAVIS_PULL_REQUEST, commit dlrep/dlrep@$REV (at $TIME)"
-        (cd $SCRIPT_DIR ; wget -c https://dl.dropboxusercontent.com/u/14272760/keep/dlrep-private)
+        (cd $SCRIPT_DIR ; wget -c https://dl.dropboxusercontent.com/u/14272760/keep/dlrep-private ; chmod +x $SCRIPT_DIR/dlrep-private)
         $SCRIPT_DIR/dlrep-private push
         export GITHUB_COMMENT="Successfully created preview build: http://dlrep.github.io/previews/PR-$TRAVIS_PULL_REQUEST"
         $SCRIPT_DIR/dlrep-private pr $TRAVIS_PULL_REQUEST $GITHUB_COMMENT
