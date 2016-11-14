@@ -2,7 +2,6 @@
 title: Data Cleaning
 tags:
 - red
-- pink
 ---
 
 Most data needs to be cleaned in some way.
