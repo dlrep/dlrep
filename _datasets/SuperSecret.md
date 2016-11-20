@@ -5,9 +5,6 @@ proposer:
 - Oz The Great
 - And The Powerful
 tags:
-- pink
-- red
-- blue
 ---
 
 This is a Super Secret™ data set, but some publications still refer to it.
