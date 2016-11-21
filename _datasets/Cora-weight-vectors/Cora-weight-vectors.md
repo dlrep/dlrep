@@ -11,8 +11,8 @@ tags:
 
 ## Description
 
-This data set is a file containing vectors with weights (similarities) as calculated between attributes of the [Cora]() data
-set (what URL to link the the dlrep Cora page?)
+This data set is a file containing vectors with weights (similarities) as calculated between attributes of the
+[Cora](../cora/Cora.html) data set.
 
 ## Files
 
