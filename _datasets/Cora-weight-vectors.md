@@ -16,7 +16,7 @@ This data set is a file containing vectors with weights (similarities) as calcul
 
 ## Files
 
-[cora-weight-vectors.csv.gz](cora-weight-vectors.csv.gz)
+[cora-weight-vectors.csv.gz](Cora-weight-vectors-files/cora-weight-vectors.csv.gz)
 
 The header line of this file contains the following attributes/fields:
 
@@ -37,7 +37,7 @@ with elements:
 This weight vector file was generated using the [Febrl](https://sourceforge.net/projects/febrl/) (Freely Extensible
 Biomedical Record Linkage) system. The Python script used is:
 
-[febrl-cora-project.py](febrl-cora-project.py)
+[febrl-cora-project.py](Cora-weight-vectors-files/febrl-cora-project.py)
 
 ## Citation
 
