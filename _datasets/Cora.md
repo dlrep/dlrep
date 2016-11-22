@@ -16,14 +16,14 @@ refer to the same publication.
 
 Originally, Cora was prepared by Andrew McCallum, and his versions of this data set are available on his
 [Data](https://people.cs.umass.edu/~mccallum/data.html) web page.
-The data is also hosted [here](cora.csv) in the DLRep.
+The data is also hosted [here](Cora-files/cora.csv) in the DLRep.
 
 Note that various versions of the Cora data set have been used by many publications in record linkage and entity resolution
 over the years.
 
 ## Files
 
-[cora.csv](./cora.csv)
+[cora.csv](Cora-files/cora.csv)
 
 The Cora versions local in [dlrep](http://dlrep.org) is a comma separated values (CSV) file as downloaded from the
 [SecondString](http://secondstring.sourceforge.net/) approximate string matching open source package.
