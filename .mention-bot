@@ -1,0 +1,31 @@
+// See https://github.com/facebook/mention-bot#configuration
+{
+    // Maximum number of people to ping in the PR message, default is 3
+    "maxReviewers": 3,
+
+    "message": "@pullRequester, thanks for the contribution! By analysing previous contributions, the following people were identified as potential reviewers: @reviewers.",
+
+    // mention-bot will try to find potential reviewers based on files history, if disabled, `alwaysNotifyForPaths` is used instead
+    "findPotentialReviewers": true,
+
+    // mention-bot will ignore any files that match these file globs
+    // "fileBlacklist": ["*.md"],
+
+    // users in this list will never be mentioned by mention-bot
+    "userBlacklist": [],
+
+    // PR made by users in this list will be ignored
+    "userBlacklistForPR": [],
+
+    // List of PR actions that mention-bot will listen to, default is "opened"
+    "actions": ["opened"],
+
+    // mention-bot will ignore already assigned PR's
+    "skipAlreadyAssignedPR": false,
+
+    // mention-bot will ignore if there is already existing an exact mention
+    "skipAlreadyMentionedPR": false,
+
+    // mention-bot will ignore if PR is made by collaborator
+    "skipCollaboratorPR": false
+}
